@@ -19,7 +19,7 @@ class MainActivity : AppCompatActivity() {
         btnClickMe.setOnClickListener {
             timesClick  = timesClick + 1
             tvMyTextView.text = timesClick.toString(    )
-            Toast.makeText( this, "Hey LILY, How are you?", Toast.LENGTH_LONG).show()
+            Toast.makeText( this, "Hey LILY, How are you? I love you Gio", Toast.LENGTH_LONG).show()
 
         }
     }
